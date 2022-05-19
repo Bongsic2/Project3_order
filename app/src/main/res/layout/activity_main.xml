@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/storeMyPageBtn"
+        android:layout_width="276dp"
+        android:layout_height="151dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="238dp"
+        android:layout_marginBottom="579dp"
+        android:text="마이페이지"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/couponBtn"
+        android:layout_width="276dp"
+        android:layout_height="151dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="175dp"
+        android:text="쿠폰"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/stampBtn"
+        android:layout_width="242dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="238dp"
+        android:text="스탬프"
+        android:textSize="30sp" />
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="608dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="정보 수정"
+            android:textSize="50dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/phoneChange"
+        android:layout_width="591dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="333dp"
+        android:text="휴대폰번호변경" />
+
+    <EditText
+        android:id="@+id/emailChange"
+        android:layout_width="584dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="462dp"
+        android:text="이메일변경" />
+
+    <EditText
+        android:id="@+id/passwordChange"
+        android:layout_width="581dp"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="597dp"
+        android:text="비밀번호변경" />
+
+    <Button
+        android:id="@+id/checkBtn"
+        android:layout_width="375dp"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="791dp"
+        android:layout_marginEnd="230dp"
+        android:text="변경완료"
+        android:textSize="30dp" />
+
+</RelativeLayout>
